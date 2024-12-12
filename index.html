@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest - JavaScript intermediário - Formulário com validação</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/escondersetas.css">
+</head>
+
+<body>
+    <main>
+        <div class="conteudo">
+            <h1 class="titulo">FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+            <p class="frase">Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+        <form class="formulario">
+            <div class="entrada">
+                <input type="text" name="nome" value="" placeholder="Nome completo *" class="campo">
+            </div>
+            
+            <div class="entrada">
+                <input type="text" name="email" value="" placeholder="Email *" class="campo">            
+            </div>
+            
+            <div class="entrada">
+                <input type="number" name="telefone" value="" placeholder="Telefone *" class="campo">
+            </div>
+            
+            <div class="entrada">
+                <textarea type="text" name="comentario" rows="9" cols="1" value="" placeholder="Mensagem *" class="campo"></textarea>
+            </div>
+            
+            <span>*campos obrigatórios</span>
+
+            <input type="submit" class="botao" value="Enviar">
+        </form>
+    </main>
+
+    <script type="text/JavaScript" src="./src/js/index.js"></script>
+</body>
+
+</html>

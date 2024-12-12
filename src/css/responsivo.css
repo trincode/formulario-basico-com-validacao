@@ -1,0 +1,17 @@
+@media(max-width: 950px) {
+    main {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .conteudo {
+        margin: 100px;
+        text-align: center;
+    }
+
+    .formulario {
+        min-width: 400px;
+        margin: 50px 100px;
+    }
+}
